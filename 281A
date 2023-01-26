@@ -1,0 +1,5 @@
+a = list(input())
+b = a[0].upper()
+a.pop(0)
+d = ''.join(a)
+print(b+d)
